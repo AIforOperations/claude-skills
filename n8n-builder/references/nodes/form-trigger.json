@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "formTitle": "Form",
+    "formFields": {
+      "values": [
+        {
+          "fieldLabel": "Name",
+          "fieldType": "text"
+        }
+      ]
+    },
+    "options": {}
+  },
+  "name": "Form Trigger",
+  "type": "n8n-nodes-base.formTrigger",
+  "typeVersion": 2,
+  "position": [
+    0,
+    0
+  ]
+}

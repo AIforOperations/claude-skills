@@ -1,0 +1,31 @@
+{
+  "parameters": {
+    "rules": {
+      "values": [
+        {
+          "outputKey": "case1",
+          "conditions": {
+            "conditions": [
+              {
+                "leftValue": "={{ $json.field }}",
+                "rightValue": "value1",
+                "operator": {
+                  "type": "string",
+                  "operation": "equals"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "options": {}
+  },
+  "name": "Switch",
+  "type": "n8n-nodes-base.switch",
+  "typeVersion": 3.2,
+  "position": [
+    0,
+    0
+  ]
+}

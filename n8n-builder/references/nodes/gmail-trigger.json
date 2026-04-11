@@ -1,0 +1,25 @@
+{
+  "parameters": {
+    "pollTimes": {
+      "item": [
+        {
+          "mode": "everyMinute"
+        }
+      ]
+    },
+    "filters": {}
+  },
+  "name": "Gmail Trigger",
+  "type": "n8n-nodes-base.gmailTrigger",
+  "typeVersion": 1.3,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "gmailOAuth2": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your gmail"
+    }
+  }
+}

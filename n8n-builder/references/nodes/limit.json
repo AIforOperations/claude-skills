@@ -1,0 +1,12 @@
+{
+  "parameters": {
+    "maxItems": 10
+  },
+  "name": "Limit",
+  "type": "n8n-nodes-base.limit",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

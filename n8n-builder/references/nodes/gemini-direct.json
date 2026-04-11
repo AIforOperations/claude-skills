@@ -1,0 +1,30 @@
+{
+  "parameters": {
+    "modelName": {
+      "__rl": true,
+      "value": "models/gemini-2.5-flash",
+      "mode": "list"
+    },
+    "messages": {
+      "values": [
+        {
+          "content": "={{ $json.prompt }}"
+        }
+      ]
+    },
+    "options": {}
+  },
+  "name": "Google Gemini",
+  "type": "@n8n/n8n-nodes-langchain.googleGemini",
+  "typeVersion": 1.1,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "googlePalmApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your googlePalm"
+    }
+  }
+}

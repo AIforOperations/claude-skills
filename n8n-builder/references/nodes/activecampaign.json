@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "contact",
+    "operation": "getAll"
+  },
+  "name": "ActiveCampaign",
+  "type": "n8n-nodes-base.activeCampaign",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

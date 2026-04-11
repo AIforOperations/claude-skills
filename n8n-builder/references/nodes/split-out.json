@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "fieldToSplitOut": "items",
+    "options": {}
+  },
+  "name": "Split Out",
+  "type": "n8n-nodes-base.splitOut",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

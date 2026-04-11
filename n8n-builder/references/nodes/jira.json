@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "issue",
+    "operation": "getAll"
+  },
+  "name": "Jira",
+  "type": "n8n-nodes-base.jiraSoftwareCloud",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

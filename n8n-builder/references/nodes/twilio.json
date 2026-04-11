@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "resource": "sms",
+    "operation": "send",
+    "from": "",
+    "to": "",
+    "message": "={{ $json.message }}"
+  },
+  "name": "Twilio",
+  "type": "n8n-nodes-base.twilio",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

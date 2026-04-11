@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "lead",
+    "operation": "getAll"
+  },
+  "name": "Zoho CRM",
+  "type": "n8n-nodes-base.zohoCrm",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

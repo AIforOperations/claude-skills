@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "charge",
+    "operation": "getAll"
+  },
+  "name": "Stripe",
+  "type": "n8n-nodes-base.stripe",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "message",
+    "operation": "send"
+  },
+  "name": "Discord",
+  "type": "n8n-nodes-base.discord",
+  "typeVersion": 2,
+  "position": [
+    0,
+    0
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "conditions": {
+      "options": {
+        "caseSensitive": true,
+        "leftValue": ""
+      },
+      "conditions": [
+        {
+          "leftValue": "={{ $json.field }}",
+          "rightValue": "",
+          "operator": {
+            "type": "string",
+            "operation": "exists"
+          }
+        }
+      ],
+      "combinator": "and"
+    },
+    "options": {}
+  },
+  "name": "Filter",
+  "type": "n8n-nodes-base.filter",
+  "typeVersion": 2.2,
+  "position": [
+    0,
+    0
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parameters": {},
+  "name": "Execute Workflow Trigger",
+  "type": "n8n-nodes-base.executeWorkflowTrigger",
+  "typeVersion": 1.1,
+  "position": [
+    0,
+    0
+  ]
+}

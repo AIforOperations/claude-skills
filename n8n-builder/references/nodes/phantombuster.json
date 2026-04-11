@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "resource": "agent",
+    "operation": "launch"
+  },
+  "name": "PhantomBuster",
+  "type": "n8n-nodes-base.phantombuster",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "phantombusterApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your phantombuster"
+    }
+  }
+}

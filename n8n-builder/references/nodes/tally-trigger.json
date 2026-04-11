@@ -1,0 +1,18 @@
+{
+  "parameters": {
+    "formId": ""
+  },
+  "name": "Tally Trigger",
+  "type": "n8n-nodes-tallyforms.tallyTrigger",
+  "typeVersion": 2,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "tallyApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your tally"
+    }
+  }
+}

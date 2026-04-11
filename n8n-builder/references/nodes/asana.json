@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "resource": "task",
+    "operation": "getAll"
+  },
+  "name": "Asana",
+  "type": "n8n-nodes-base.asana",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "asanaOAuth2Api": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your asana"
+    }
+  }
+}

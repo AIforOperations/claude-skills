@@ -1,0 +1,20 @@
+{
+  "parameters": {
+    "operation": "create",
+    "title": "={{ $json.title }}",
+    "content": "={{ $json.content }}"
+  },
+  "name": "Create Google Doc",
+  "type": "n8n-nodes-base.googleDocs",
+  "typeVersion": 2,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "googleDocsOAuth2Api": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your googleDocs"
+    }
+  }
+}

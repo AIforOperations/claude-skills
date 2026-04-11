@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "resource": "workflow",
+    "operation": "getAll"
+  },
+  "name": "n8n",
+  "type": "n8n-nodes-base.n8n",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "n8nApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your n8n"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "task",
+    "operation": "getAll"
+  },
+  "name": "ClickUp",
+  "type": "n8n-nodes-base.clickUp",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

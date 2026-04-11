@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "resource": "invoice",
+    "operation": "getAll"
+  },
+  "name": "QuickBooks",
+  "type": "n8n-nodes-base.quickbooks",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "quickBooksOAuth2Api": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your quickBooks"
+    }
+  }
+}

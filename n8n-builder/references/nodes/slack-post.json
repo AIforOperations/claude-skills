@@ -1,0 +1,25 @@
+{
+  "parameters": {
+    "resource": "message",
+    "operation": "post",
+    "channel": {
+      "__rl": true,
+      "value": "general",
+      "mode": "name"
+    },
+    "text": "={{ $json.message }}"
+  },
+  "name": "Post to Slack",
+  "type": "n8n-nodes-base.slack",
+  "typeVersion": 2.4,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "slackOAuth2Api": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your slack"
+    }
+  }
+}

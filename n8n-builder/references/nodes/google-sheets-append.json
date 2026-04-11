@@ -1,0 +1,31 @@
+{
+  "parameters": {
+    "operation": "append",
+    "documentId": {
+      "__rl": true,
+      "value": "",
+      "mode": "url"
+    },
+    "sheetName": {
+      "__rl": true,
+      "value": "Sheet1",
+      "mode": "name"
+    },
+    "columns": {
+      "mappingMode": "autoMapInputData"
+    }
+  },
+  "name": "Append to Sheet",
+  "type": "n8n-nodes-base.googleSheets",
+  "typeVersion": 4.5,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "googleSheetsOAuth2Api": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your googleSheets"
+    }
+  }
+}

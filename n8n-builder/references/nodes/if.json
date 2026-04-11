@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "conditions": {
+      "string": [
+        {
+          "value1": "={{ $json.field }}",
+          "value2": "value",
+          "operation": "equals"
+        }
+      ]
+    },
+    "combineOperation": "all"
+  },
+  "name": "IF",
+  "type": "n8n-nodes-base.if",
+  "typeVersion": 2.3,
+  "position": [
+    0,
+    0
+  ]
+}

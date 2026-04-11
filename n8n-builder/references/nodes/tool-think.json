@@ -1,0 +1,10 @@
+{
+  "parameters": {},
+  "name": "Think Tool",
+  "type": "@n8n/n8n-nodes-langchain.toolThink",
+  "typeVersion": 1.1,
+  "position": [
+    0,
+    200
+  ]
+}

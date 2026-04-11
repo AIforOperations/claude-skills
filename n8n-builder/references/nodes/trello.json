@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "card",
+    "operation": "create"
+  },
+  "name": "Trello",
+  "type": "n8n-nodes-base.trello",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

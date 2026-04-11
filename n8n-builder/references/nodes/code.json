@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "jsCode": "const items = $input.all();\nreturn items;",
+    "mode": "runOnceForAllItems"
+  },
+  "name": "Code",
+  "type": "n8n-nodes-base.code",
+  "typeVersion": 2,
+  "position": [
+    0,
+    0
+  ]
+}

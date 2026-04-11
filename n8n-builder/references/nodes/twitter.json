@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "tweet",
+    "operation": "create"
+  },
+  "name": "X (Twitter)",
+  "type": "n8n-nodes-base.twitter",
+  "typeVersion": 2,
+  "position": [
+    0,
+    0
+  ]
+}

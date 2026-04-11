@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "model": "claude-sonnet-4-20250514",
+    "options": {
+      "temperature": 0.3
+    }
+  },
+  "name": "Claude Sonnet",
+  "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+  "typeVersion": 1.3,
+  "position": [
+    0,
+    200
+  ],
+  "credentials": {
+    "anthropicApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your anthropic"
+    }
+  }
+}

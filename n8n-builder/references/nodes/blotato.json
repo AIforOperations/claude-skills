@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "resource": "post",
+    "operation": "create"
+  },
+  "name": "Blotato",
+  "type": "@blotato/n8n-nodes-blotato.blotato",
+  "typeVersion": 2,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "blotatoApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your blotato"
+    }
+  }
+}

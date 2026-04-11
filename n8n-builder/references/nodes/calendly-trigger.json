@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "events": [
+      "invitee.created"
+    ]
+  },
+  "name": "Calendly Trigger",
+  "type": "n8n-nodes-base.calendlyTrigger",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

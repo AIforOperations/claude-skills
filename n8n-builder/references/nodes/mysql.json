@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "operation": "executeQuery",
+    "query": "SELECT * FROM table LIMIT 10"
+  },
+  "name": "MySQL",
+  "type": "n8n-nodes-base.mySql",
+  "typeVersion": 2.4,
+  "position": [
+    0,
+    0
+  ]
+}

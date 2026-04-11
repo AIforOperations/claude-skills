@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "model": "gpt-4o-mini",
+    "options": {
+      "temperature": 0.3
+    }
+  },
+  "name": "OpenAI GPT-4o-mini",
+  "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+  "typeVersion": 1.3,
+  "position": [
+    0,
+    200
+  ],
+  "credentials": {
+    "openAiApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your openAi"
+    }
+  }
+}

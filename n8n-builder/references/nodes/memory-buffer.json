@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "sessionKey": "={{ $json.sessionId }}",
+    "contextWindowLength": 10
+  },
+  "name": "Window Buffer Memory",
+  "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+  "typeVersion": 1.3,
+  "position": [
+    0,
+    200
+  ]
+}

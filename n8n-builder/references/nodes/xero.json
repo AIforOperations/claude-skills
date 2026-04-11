@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "invoice",
+    "operation": "getAll"
+  },
+  "name": "Xero",
+  "type": "n8n-nodes-base.xero",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

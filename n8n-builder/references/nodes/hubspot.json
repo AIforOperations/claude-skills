@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "contact",
+    "operation": "getAll"
+  },
+  "name": "HubSpot",
+  "type": "n8n-nodes-base.hubspot",
+  "typeVersion": 2,
+  "position": [
+    0,
+    0
+  ]
+}

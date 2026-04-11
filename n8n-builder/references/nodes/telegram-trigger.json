@@ -1,0 +1,20 @@
+{
+  "parameters": {
+    "updates": [
+      "message"
+    ]
+  },
+  "name": "Telegram Trigger",
+  "type": "n8n-nodes-base.telegramTrigger",
+  "typeVersion": 1.1,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "telegramApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your telegram"
+    }
+  }
+}

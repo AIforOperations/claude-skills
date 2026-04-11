@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "mail",
+    "operation": "send"
+  },
+  "name": "SendGrid",
+  "type": "n8n-nodes-base.sendGrid",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

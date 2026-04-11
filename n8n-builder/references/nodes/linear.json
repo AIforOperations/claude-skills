@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "issue",
+    "operation": "getAll"
+  },
+  "name": "Linear",
+  "type": "n8n-nodes-base.linear",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

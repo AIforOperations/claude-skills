@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "resource": "lead",
+    "operation": "getAll"
+  },
+  "name": "Salesforce",
+  "type": "n8n-nodes-base.salesforce",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

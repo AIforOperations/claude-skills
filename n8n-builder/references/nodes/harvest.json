@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "resource": "timeEntry",
+    "operation": "getAll"
+  },
+  "name": "Harvest",
+  "type": "n8n-nodes-base.harvest",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "harvestOAuth2Api": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your harvest"
+    }
+  }
+}

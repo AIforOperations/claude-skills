@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "resource": "boardItem",
+    "operation": "getAll"
+  },
+  "name": "Monday.com",
+  "type": "n8n-nodes-base.mondayCom",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "mondayComApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your mondayCom"
+    }
+  }
+}

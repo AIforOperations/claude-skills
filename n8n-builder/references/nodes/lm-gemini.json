@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "modelName": "models/gemini-2.5-flash",
+    "options": {
+      "temperature": 0.3
+    }
+  },
+  "name": "Gemini Flash",
+  "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+  "typeVersion": 1,
+  "position": [
+    0,
+    200
+  ],
+  "credentials": {
+    "googlePalmApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your googlePalm"
+    }
+  }
+}

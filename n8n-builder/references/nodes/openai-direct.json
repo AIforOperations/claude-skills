@@ -1,0 +1,32 @@
+{
+  "parameters": {
+    "resource": "text",
+    "operation": "message",
+    "model": {
+      "__rl": true,
+      "value": "gpt-4o-mini",
+      "mode": "list"
+    },
+    "messages": {
+      "values": [
+        {
+          "content": "={{ $json.prompt }}"
+        }
+      ]
+    },
+    "options": {}
+  },
+  "name": "OpenAI",
+  "type": "@n8n/n8n-nodes-langchain.openAi",
+  "typeVersion": 1.8,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "openAiApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your openAi"
+    }
+  }
+}

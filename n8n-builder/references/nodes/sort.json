@@ -1,0 +1,20 @@
+{
+  "parameters": {
+    "sortFieldsUi": {
+      "sortField": [
+        {
+          "fieldName": "field",
+          "order": "descending"
+        }
+      ]
+    },
+    "options": {}
+  },
+  "name": "Sort",
+  "type": "n8n-nodes-base.sort",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parameters": {},
+  "name": "No Op",
+  "type": "n8n-nodes-base.noOp",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

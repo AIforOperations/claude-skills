@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "events": [
+      "payment_intent.succeeded"
+    ]
+  },
+  "name": "Stripe Trigger",
+  "type": "n8n-nodes-base.stripeTrigger",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

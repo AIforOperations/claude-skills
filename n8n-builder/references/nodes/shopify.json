@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "resource": "order",
+    "operation": "getAll",
+    "limit": 50
+  },
+  "name": "Shopify",
+  "type": "n8n-nodes-base.shopify",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

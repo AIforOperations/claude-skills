@@ -1,0 +1,22 @@
+{
+  "parameters": {
+    "assignments": {
+      "assignments": [
+        {
+          "id": "placeholder",
+          "name": "fieldName",
+          "value": "={{ $json.value }}",
+          "type": "string"
+        }
+      ]
+    },
+    "options": {}
+  },
+  "name": "Set Fields",
+  "type": "n8n-nodes-base.set",
+  "typeVersion": 3.4,
+  "position": [
+    0,
+    0
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "operation": "csv",
+    "options": {}
+  },
+  "name": "Convert to File",
+  "type": "n8n-nodes-base.convertToFile",
+  "typeVersion": 1.1,
+  "position": [
+    0,
+    0
+  ]
+}

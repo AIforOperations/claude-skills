@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "resource": "databasePage",
+    "operation": "getAll"
+  },
+  "name": "Notion",
+  "type": "n8n-nodes-base.notion",
+  "typeVersion": 2.2,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "notionApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your notion"
+    }
+  }
+}

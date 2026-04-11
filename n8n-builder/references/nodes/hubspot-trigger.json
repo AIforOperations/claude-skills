@@ -1,0 +1,18 @@
+{
+  "parameters": {
+    "eventsUi": {
+      "eventValues": [
+        {
+          "name": "contact.creation"
+        }
+      ]
+    }
+  },
+  "name": "HubSpot Trigger",
+  "type": "n8n-nodes-base.hubspotTrigger",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ]
+}

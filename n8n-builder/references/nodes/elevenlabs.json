@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "resource": "textToSpeech",
+    "operation": "generate"
+  },
+  "name": "ElevenLabs",
+  "type": "n8n-nodes-base.elevenLabs",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "elevenLabsApi": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your elevenLabs"
+    }
+  }
+}

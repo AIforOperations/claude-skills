@@ -1,0 +1,35 @@
+{
+  "parameters": {
+    "documentId": {
+      "__rl": true,
+      "value": "",
+      "mode": "url"
+    },
+    "sheetName": {
+      "__rl": true,
+      "value": "Sheet1",
+      "mode": "name"
+    },
+    "event": "rowAdded",
+    "pollTimes": {
+      "item": [
+        {
+          "mode": "everyMinute"
+        }
+      ]
+    }
+  },
+  "name": "Google Sheets Trigger",
+  "type": "n8n-nodes-base.googleSheetsTrigger",
+  "typeVersion": 1,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "googleSheetsTriggerOAuth2Api": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your googleSheetsTrigger"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parameters": {
+    "operation": "create",
+    "columns": {
+      "mappingMode": "autoMapInputData"
+    }
+  },
+  "name": "Add to Airtable",
+  "type": "n8n-nodes-base.airtable",
+  "typeVersion": 2,
+  "position": [
+    0,
+    0
+  ]
+}

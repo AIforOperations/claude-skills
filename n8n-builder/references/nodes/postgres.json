@@ -1,0 +1,20 @@
+{
+  "parameters": {
+    "operation": "executeQuery",
+    "query": "SELECT * FROM table LIMIT 10",
+    "options": {}
+  },
+  "name": "Postgres",
+  "type": "n8n-nodes-base.postgres",
+  "typeVersion": 2.6,
+  "position": [
+    0,
+    0
+  ],
+  "credentials": {
+    "postgres": {
+      "id": "YOUR_CREDENTIAL_ID",
+      "name": "Your postgres"
+    }
+  }
+}
