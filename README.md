@@ -6,7 +6,8 @@ Production-tested skills for [Claude Code](https://claude.ai/claude-code). Drop 
 
 | Skill | Description |
 |---|---|
-| [n8n-builder](n8n-builder/) | Build, deploy, and manage n8n workflows via the REST API. Includes 89 pre-built node snippets, a deploy script, and hard-won API rules/gotchas. |
+| [n8n-builder](n8n-builder/) | Build, deploy, and manage n8n workflows via the REST API. Includes 89 pre-built node snippets, a deploy script, and API rules. |
+| [reddit-to-ad-copy](reddit-to-ad-copy/) | Scrape Reddit via Apify, generate ad concepts through a Concept Engine, and write full Native MSL Facebook ad copy. Includes headline and image prompt generation. |
 
 ## Installation
 
