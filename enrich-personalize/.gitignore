@@ -1,0 +1,25 @@
+# secrets — never commit
+.env
+.env.local
+*.env
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+
+# script outputs and backups (write_lines.py writes <csv>.backup_<ts>.csv)
+*.bak
+*.bak_*
+*.backup
+*.backup_*
+leads.json
+signals.json
+
+# real prospect data — keep lead lists out of git (sample CSVs are allowed)
+*.csv
+*.xlsx
+!sample/*.csv
+
+# os
+.DS_Store

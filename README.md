@@ -8,6 +8,7 @@ Production-tested skills for [Claude Code](https://claude.ai/claude-code). Drop 
 |---|---|
 | [n8n-builder](n8n-builder/) | Build, deploy, and manage n8n workflows via the REST API. Includes 89 pre-built node snippets, a deploy script, and API rules. |
 | [reddit-to-ad-copy](reddit-to-ad-copy/) | Scrape Reddit via Apify, generate ad concepts through a Concept Engine, and write full Native MSL Facebook ad copy. Includes headline and image prompt generation. |
+| [enrich-personalize](enrich-personalize/) | Turn a lead CSV into per-prospect cold-email openers. Researches one personal signal per lead (free -> Firecrawl -> Apify), verifies it, writes a short friend-to-friend opener, then polishes weak phrasing or drops soft lines. Ships a `lead-enricher` agent and a parallel research workflow. |
 
 ## Installation
 
