@@ -10,21 +10,14 @@ hey joe, born, raised, and even mayor of burlingame, respect!
 
 It researches each lead through a free -> Firecrawl -> Apify waterfall, verifies the signal is real and personal, writes the opener, and runs a final polish pass that rewords weak phrasing or drops a lead rather than ship a soft line.
 
-## Folder layout
+## What's in this folder
 
 ```
-.claude/
-  skills/enrich_personalize/   the skill
-    SKILL.md                   the recipe Claude follows
-    references/                voice rules, signal rules, source/tool notes
-    scripts/                   python helpers (stdlib only)
-    workflow/                  the parallel research workflow (Node/JS)
-  agents/lead-enricher.md      the worker agent the workflow spawns
-sample/leads_sample.csv        a tiny fake CSV to verify setup
-.env.example                   template for your API keys
+.claude/skills/enrich_personalize/   the skill (SKILL.md, references/, scripts/, workflow/)
+.claude/agents/lead-enricher.md      the worker agent the workflow calls
+sample/leads_sample.csv              a tiny fake CSV for a no-cost smoke test
+.env.example                         template for your API keys
 ```
-
-This skill ships an agent (`lead-enricher`) as well as a skill, which is why both live under a ready-made `.claude/` folder. Copy that whole `.claude/` into your workspace and both land in the right place.
 
 ## Prerequisites
 
@@ -45,19 +38,18 @@ Open this folder in Claude Code and say:
 
 > Read README.md and set up the enrich_personalize skill in this workspace.
 
-Claude will copy the skill and agent into the right places, help you create your `.env`, register the Apify MCP server if you want it, and run the smoke test below.
+Claude will copy the `.claude` contents into place, help you create your `.env`, register the Apify MCP server if you want it, and run the smoke test.
 
 ### Option B: manual
 
-1. Copy this folder's `.claude/` contents into your workspace `.claude/` (both the skill and the agent land in place):
+1. Copy the `.claude` contents into your workspace. This drops the skill into `.claude/skills/enrich_personalize` and the agent into `.claude/agents/lead-enricher.md` in one step:
    ```bash
-   cp -R enrich-personalize/.claude/. /path/to/your-workspace/.claude/
+   cp -R .claude/. /path/to/your-workspace/.claude/
    ```
-   (User scope `~/.claude/` works too.)
 
 2. Add your keys (optional). Copy the template to your workspace root and fill it in:
    ```bash
-   cp enrich-personalize/.env.example /path/to/your-workspace/.env
+   cp .env.example /path/to/your-workspace/.env
    ```
    The `lead-enricher` agent loads this `.env` at runtime with `set -a; . ./.env; set +a`, so it must sit at the root of the workspace you run Claude from.
 
