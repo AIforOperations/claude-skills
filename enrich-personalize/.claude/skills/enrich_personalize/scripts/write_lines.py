@@ -54,7 +54,10 @@ def main():
             cn = (s.get("contact_name") or row.get("contact_name") or "").strip()
             raw_fn = cn.split()[0] if cn else ""
         cfn = casual_first(raw_fn, s.get("casual_first_name"))
-        ccn = casual_company(row.get("company_name", ""), s.get("casual_company_name"))
+        contact_full = (s.get("contact_name") or row.get("contact_name") or row.get("full_name")
+                        or (row.get("first_name", "") + " " + row.get("last_name", "")).strip())
+        ccn = casual_company(row.get("company_name", ""), s.get("casual_company_name"),
+                             contact_name=contact_full)
         # store lowercase so it renders lowercase when used as a merge tag in the all-lowercase email
         row["casual_first_name"] = cfn.lower()
         row["casual_company_name"] = ccn
