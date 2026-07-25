@@ -1,5 +1,9 @@
 # enrich_personalize
 
+**Version: v2.0**
+
+> **What's new in v2.0** — rebuilt around a cache-first, batched pipeline. LinkedIn bios are bulk pre-fetched in one Apify run (~$4 per 1,000) and websites in one free parallel pass, then batched agents work from the cache instead of researching the web per lead: enrich (sonnet, 1 agent per 10 leads) → merged verify+write (sonnet, 1 per 15) → final polish (opus, 1 per 40) → targeted rescue for the few flagged rows. Roughly 85% fewer tokens per lead than v1 at the same output quality, with automatic dropping of wrong-person / left-the-company contacts. Also new: first-run key setup guided by Claude, and an auto-update check that pulls the latest skill version before every run.
+
 A Claude Code skill that turns a lead CSV into per-prospect cold-email openers. Each opener references one real, researched, personal fact about the prospect and reads like a friend wrote it: lowercase, under 9 words, no questions, no sales pitch. For example:
 
 ```

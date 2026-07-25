@@ -4,7 +4,9 @@ description: Enrich a lead CSV with one researched personal signal per prospect 
 allowed-tools: Bash, Read, Write, Workflow, Agent
 ---
 
-# enrich_personalize
+# enrich_personalize (v2.0)
+
+v2.0: cache-first batched pipeline — bulk LinkedIn bio pre-fetch (one Apify run) + free parallel site fetch, then batched sonnet enrich/verify-write and a batched opus polish, with automatic dropping of wrong-person and left-the-company contacts. ~85% fewer tokens per lead than v1 at the same quality.
 
 Turns a lead CSV into per-prospect cold-email openers. Each line references one real, researched, personal fact and reads like a friend wrote it.
 
