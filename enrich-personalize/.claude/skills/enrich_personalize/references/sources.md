@@ -1,6 +1,11 @@
 # Sources & tools
 
-## Firecrawl (REST, no install)
+## Apify pre-fetch (primary signal source)
+`scripts/prefetch_linkedin.py` runs `harvestapi~linkedin-profile-scraper` in bulk over the whole lead list ("Profile details no email" mode, ~$4 per 1k profiles) and caches a slimmed bio (about, headline, experience, volunteering, awards) per lead. This cache is where most kept signals come from — run it before the workflow whenever the CSV has LinkedIn URLs. Token lives in the workspace `.env` as `APIFY_API_TOKEN`.
+
+Posts scraping (`harvestapi~linkedin-profile-posts`) is available behind `--with-posts` but off by default: on low-activity B2B profiles it roughly triples the Apify cost and yields almost no usable signals.
+
+## Firecrawl (REST, no install — agent-side fallback only)
 Key lives in the workspace `.env` as `FIRECRAWL_API_KEY` (load it with `set -a; . ./.env; set +a`, or have it exported in your environment). Base `https://api.firecrawl.dev/v2`, auth header `Authorization: Bearer $FIRECRAWL_API_KEY`. Parse responses with `python3 -c`.
 
 - Map a site (find about/team/bio pages): `POST /v2/map` body `{"url":"<domain>"}`
